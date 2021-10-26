@@ -14,3 +14,9 @@ saniye cinsinden gösterir.
 
 
 direct exe olarak çalıştırmak için ("...\mssqlRebuildTables\mssqlRebuildTables\bin\Debug\net5.0-windows\mssqlRebuildTables.exe" çalıştırabilirsiniz.
+
+"Başla/Bitir" butonu işlemi kurduğunuz saatte çalıştırmak üzere programı hazırlar.
+Programın gidiğiniz (saat ve dakikada) çalışacağını "Durum" alanının "İşlemde" yazması ile anlarız.
+Eğer "Durum" alanında "İşlemde" yazmıyor ise (mesala "Durdu" yazıyor is) girilen zamanda rebuildd işlemi yapılmayacaktır.
+
+Yapılan işlemler ekranın altında, log olarak yazılmaktada ve günlük olarak log dosyasına atılmaktadır.
