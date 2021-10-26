@@ -34,7 +34,6 @@ namespace mssqlRebuildTables
             this.panel3 = new System.Windows.Forms.Panel();
             this.txt_Log = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_Bitir = new System.Windows.Forms.Button();
             this.btn_Basla = new System.Windows.Forms.Button();
             this.txt_Status = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -92,7 +91,6 @@ namespace mssqlRebuildTables
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.btn_Bitir);
             this.panel2.Controls.Add(this.btn_Basla);
             this.panel2.Controls.Add(this.txt_Status);
             this.panel2.Controls.Add(this.label9);
@@ -120,22 +118,13 @@ namespace mssqlRebuildTables
             this.panel2.Size = new System.Drawing.Size(897, 236);
             this.panel2.TabIndex = 0;
             // 
-            // btn_Bitir
-            // 
-            this.btn_Bitir.Location = new System.Drawing.Point(17, 206);
-            this.btn_Bitir.Name = "btn_Bitir";
-            this.btn_Bitir.Size = new System.Drawing.Size(100, 24);
-            this.btn_Bitir.TabIndex = 21;
-            this.btn_Bitir.Text = "BİTİR";
-            this.btn_Bitir.UseVisualStyleBackColor = true;
-            // 
             // btn_Basla
             // 
-            this.btn_Basla.Location = new System.Drawing.Point(368, 202);
+            this.btn_Basla.Location = new System.Drawing.Point(527, 171);
             this.btn_Basla.Name = "btn_Basla";
             this.btn_Basla.Size = new System.Drawing.Size(100, 24);
             this.btn_Basla.TabIndex = 20;
-            this.btn_Basla.Text = "BASLA";
+            this.btn_Basla.Text = "BASLA/BITIR";
             this.btn_Basla.UseVisualStyleBackColor = true;
             this.btn_Basla.Click += new System.EventHandler(this.btn_Basla_Click);
             // 
@@ -151,9 +140,9 @@ namespace mssqlRebuildTables
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(368, 177);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 15);
+            this.label9.Size = new System.Drawing.Size(49, 15);
             this.label9.TabIndex = 18;
-            this.label9.Text = "DAKİKA";
+            this.label9.Text = "DURUM";
             // 
             // txt_timeMinute
             // 
@@ -346,7 +335,6 @@ namespace mssqlRebuildTables
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btn_Kaydet;
         private System.Windows.Forms.Button btn_Test;
-        private System.Windows.Forms.Button btn_Bitir;
         private System.Windows.Forms.Button btn_Basla;
         private System.Windows.Forms.TextBox txt_Status;
         private System.Windows.Forms.Label label9;
