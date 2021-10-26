@@ -1,0 +1,1 @@
+{"dbServerName":"192.168.16.21","dbName":"test01","dbUserName":"sa","dbUserPass":"dbaykut@ltay-*/","tryCount":2,"waitTime":10,"timeHour":15,"timeMinute":45}
